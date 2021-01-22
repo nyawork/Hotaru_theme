@@ -2,9 +2,9 @@
   <div class="ui vertical masthead center aligned segment" id="header">
     <div id="header-content">
       <h1 class="ui inverted header">
-        Server Status
+        CandiVerse
       </h1>
-      <p>Servers' Probes Set up with ServerStatus</p>
+      <p>𝖂𝖍𝖊𝖗𝖊 𝖙𝖍𝖊 𝖉𝖗𝖊𝖆𝖒 𝖑𝖆𝖓𝖉𝖘</p>
     </div>
   </div>
 </template>
@@ -16,9 +16,17 @@ export default {
 <style scoped>
 #header {
   height: 25rem;
-  /*Replace your header image at this place!*/
-  background: url("../assets/img/cover.png") no-repeat center center;
+  background: url("../assets/img/cover.webp") no-repeat center center;
 }
+
+/*
+@media(max-width: 768px) {
+  #header {
+    height: 20rem !important;
+    background: url("../assets/img/cover_mobile.webp") no-repeat center center !important;
+  }
+}
+*/
 
 #header::before {
   content: '';
@@ -29,17 +37,7 @@ export default {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, .15);
-}
-
-#header::after {
-  content: 'Pixiv: 69713505';
-  color: #CDCDCD;
-  text-shadow: 1px 1px 1px #666;
-  position: absolute;
-  bottom: 0;
-  right: 15px;
-  z-index: 2;
+  background: rgba(66, 64, 64, .4);
 }
 
 /*#header::after {

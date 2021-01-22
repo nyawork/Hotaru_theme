@@ -50,7 +50,7 @@ export default {
 <style>
 body {
   /*Replace your background image at this place!*/
-  background: url("./assets/img/bg_parts.png") repeat-y left top, url('./assets/img/bg.png') repeat left top;
+  background: url("./assets/img/bg_parts.webp") repeat-y left top fixed, url('./assets/img/bg.webp') repeat left top fixed;
 }
 
 /*Global*/
@@ -91,21 +91,6 @@ div.bar {
   #cards .card div.card-content p {
     font-size: 1.25rem !important;
     margin-bottom: 0.6rem !important;
-  }
-
-  #header {
-    height: 20rem !important;
-    /*Replace your header image (for mobile use)at this place!*/
-    background: url("assets/img/cover_mobile.png") no-repeat center center !important;
-  }
-
-  #header::after {
-    content: 'Pixiv: 86597206';
-    color: #CDCDCD;
-    position: absolute;
-    bottom: 0;
-    right: 15px;
-    z-index: 2;
   }
 }
 

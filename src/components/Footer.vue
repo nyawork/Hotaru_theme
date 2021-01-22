@@ -1,7 +1,10 @@
 <template>
   <footer>
-    <p>Powered by <a
-        href="https://github.com/CokeMine/ServerStatus-Hotaru">ServerStatus-Hotaru</a></p>
+    <p>由
+      <a href="https://github.com/nyawork/ServerStatus-Hotaru" target="_blank">ServerStatus-Hotaru(M)</a>
+      强力驱动喵
+      <span class="color-red">❤</span>
+    </p>
   </footer>
 </template>
 
@@ -15,5 +18,8 @@ export default {
 footer p {
   text-align: center;
   padding-bottom: 12px;
+}
+.color-red {
+  color: red;
 }
 </style>
